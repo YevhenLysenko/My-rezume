@@ -4,7 +4,8 @@ body {
 }
 .header-nav,
 .block-about-title,
-h2 {
+h2,
+.footer-nav {
   text-align: center;
 }
 .header-nav {
@@ -91,4 +92,25 @@ p {
   background: rgba(148, 206, 145);
   font-family: cursive;
   font-style: italic;
+}
+.footer {
+  margin-top: 25px;
+}
+.footer-nav {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: indigo;
+}
+.footer-nav-list {
+  list-style-type: none;
+  font-size: 30px;
+  text-decoration: none;
+}
+.footer-nav-list-link {
+  display: inline-block;
+  padding: 2px;
+  border: 1px solid rgb(238, 223, 172);
+  border-radius: 20px;
+  background-color: rgba(148, 206, 145, 0.8);
+  margin: 10px 20px 10px 20px;
 }
