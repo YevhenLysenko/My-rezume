@@ -1,0 +1,94 @@
+body {
+  background-color: rgba(148, 206, 145, 0.5);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header-nav,
+.block-about-title,
+h2 {
+  text-align: center;
+}
+.header-nav {
+  padding: 2px;
+  border: 1px solid rgb(238, 223, 172);
+  border-radius: 20px;
+  background-color: rgba(148, 206, 145, 0.8);
+
+  margin-bottom: 50px;
+}
+.header-nav-list,
+.img,
+.block-work-list,
+.block-about,
+.block-work {
+  display: inline-block;
+}
+
+.header-nav-list {
+  margin-right: 50px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+.header-nav-list-url {
+  text-decoration: none;
+  color: green;
+}
+.img {
+  height: 450px;
+  margin-right: 50px;
+  border: 2px solid rgba(148, 206, 145);
+  border-radius: 50px;
+}
+.block-about {
+  font-size: 20px;
+  margin-left: 50px;
+  background: rgb(238, 223, 172);
+  border: 3px solid rgba(148, 206, 145);
+  border-radius: 50px;
+}
+.block-about-title,
+.about-me {
+  font-weight: bold;
+}
+
+.block-about-title {
+  font-size: 25px;
+  color: rgb(250, 8, 40);
+}
+.block-about-list {
+  list-style: square;
+}
+.about-me {
+  margin: 5px;
+  color: green;
+}
+.about-me-h {
+  font-size: 35px;
+  color: rgb(250, 8, 40);
+}
+h2 {
+  font-size: 100px;
+
+  color: green;
+  margin-bottom: 20px;
+}
+.block-work {
+  margin-left: 50px;
+  font-size: 40px;
+  color: red;
+  border: 5px double green;
+}
+p {
+  font-size: 22px;
+  color: rgb(78, 76, 76);
+}
+.block-work-res {
+  color: indigo;
+  font-size: 25px;
+  font-family: cursive;
+}
+.block-work-list {
+  background: rgba(148, 206, 145);
+  font-family: cursive;
+  font-style: italic;
+}
